@@ -24,7 +24,7 @@ export default function App() {
   const [cfg, setCfg] = useLocalStorage<Config>('ddrc_config', DEFAULT_CONFIG);
   const [toastMsg, setToastMsg] = useState('');
   const [toastVisible, setToastVisible] = useState(false);
-  const toastTimer = useRef<ReturnType<typeof setTimeout>>();
+  const toastTimer = useRef<ReturnType<typeof setTimeout> | undefined>(undefined);
 
   const navigate = useCallback((s: Screen) => {
     setScreen(s);

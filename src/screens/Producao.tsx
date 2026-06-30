@@ -1,6 +1,5 @@
 import { LabelPreview } from '../components/LabelPreview';
 import { MetodoTag } from '../components/MetodoTag';
-import { DEFAULT_CONFIG } from '../data/seed';
 import { rid } from '../utils/date';
 import type { Produto, Config, Screen } from '../types';
 

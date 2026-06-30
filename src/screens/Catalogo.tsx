@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { MetodoTag } from '../components/MetodoTag';
 import { ModalProduto } from '../components/ModalProduto';
-import { SEED_PRODUCTS } from '../data/seed';
 import type { Produto } from '../types';
 
 interface CatalogoProps {
