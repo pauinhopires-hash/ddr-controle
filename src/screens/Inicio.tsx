@@ -7,7 +7,7 @@ interface InicioProps {
 export function Inicio({ onNavigate }: InicioProps) {
   return (
     <>
-      <h1 className="page-title">Controlados <span className="i">i</span></h1>
+      <h1 className="page-title">Controle de Insumos — Etiquetadora <span className="i">i</span></h1>
       <div className="page-sub">Atualizado hoje às 15:38</div>
 
       <div className="grid g2">
